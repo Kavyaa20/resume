@@ -63,8 +63,15 @@ nav ul {
 }
 
 .menu-container li a {
-    colour: #fff;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    forn-size: 14px;
+    font-size: 14px;
 }
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: block;
+        flex-direction: column-reverse;
+    }
+  }
