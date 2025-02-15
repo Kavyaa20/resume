@@ -61,3 +61,10 @@ nav ul {
     width: 900px;
     margin: 0 auto;
 }
+
+.menu-container li a {
+    colour: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    forn-size: 14px;
+}
