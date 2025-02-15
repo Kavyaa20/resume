@@ -3,6 +3,8 @@ html {
 }
 body {
     background-color: #e6fffe;
+    borded: 0px;
+    padding: 0px;
 }
 
 .container {
