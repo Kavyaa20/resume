@@ -42,8 +42,15 @@ p {
 }
 
 nav {
-    background-color:#a5e1ea;
+    background-color: #a5e1ea;
     padding: 5px;
     filter: drop-shadow(5px 5px 5px #302b2b);
+}
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: 0 auto;
 }
