@@ -64,8 +64,12 @@ nav ul {
 }
 
 .headshot img {
-    width: 100%;
-    border-radius: 20px;
+    width: 150px;  /* Adjust size as needed */
+    height: 150px; /* Ensures a perfect circle */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures the image fills the space properly */
+    display: block;
+    margin: 0 auto; /* Centers the image */
 }
 
 .contact p {
